@@ -1,0 +1,911 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="autoSaveFrequencyLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="autoSaveFrequencyLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 62</value>
+  </data>
+  <data name="autoSaveFrequencyLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 25</value>
+  </data>
+  <data name="autoSaveFrequencyLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="autoSaveFrequencyLabel.Text" xml:space="preserve">
+    <value>Интервал автосохранения</value>
+  </data>
+  <data name="&gt;&gt;autoSaveFrequencyLabel.Name" xml:space="preserve">
+    <value>autoSaveFrequencyLabel</value>
+  </data>
+  <data name="&gt;&gt;autoSaveFrequencyLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;autoSaveFrequencyLabel.Parent" xml:space="preserve">
+    <value>autoSaveSettingsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;autoSaveFrequencyLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="autoSaveFrequencyTrackBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 93</value>
+  </data>
+  <data name="autoSaveFrequencyTrackBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>349, 69</value>
+  </data>
+  <data name="autoSaveFrequencyTrackBar.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;autoSaveFrequencyTrackBar.Name" xml:space="preserve">
+    <value>autoSaveFrequencyTrackBar</value>
+  </data>
+  <data name="&gt;&gt;autoSaveFrequencyTrackBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;autoSaveFrequencyTrackBar.Parent" xml:space="preserve">
+    <value>autoSaveSettingsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;autoSaveFrequencyTrackBar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="enableAutoSaveCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="enableAutoSaveCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 30</value>
+  </data>
+  <data name="enableAutoSaveCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 29</value>
+  </data>
+  <data name="enableAutoSaveCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="enableAutoSaveCheckBox.Text" xml:space="preserve">
+    <value>Включить автосохранение</value>
+  </data>
+  <data name="&gt;&gt;enableAutoSaveCheckBox.Name" xml:space="preserve">
+    <value>enableAutoSaveCheckBox</value>
+  </data>
+  <data name="&gt;&gt;enableAutoSaveCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;enableAutoSaveCheckBox.Parent" xml:space="preserve">
+    <value>autoSaveSettingsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;enableAutoSaveCheckBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="okButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>304, 773</value>
+  </data>
+  <data name="okButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 34</value>
+  </data>
+  <data name="okButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="okButton.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;okButton.Name" xml:space="preserve">
+    <value>okButton</value>
+  </data>
+  <data name="&gt;&gt;okButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;okButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;okButton.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cancelButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 773</value>
+  </data>
+  <data name="cancelButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 34</value>
+  </data>
+  <data name="cancelButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cancelButton.Text" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="&gt;&gt;cancelButton.Name" xml:space="preserve">
+    <value>cancelButton</value>
+  </data>
+  <data name="&gt;&gt;cancelButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cancelButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cancelButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="applyButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="applyButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>540, 773</value>
+  </data>
+  <data name="applyButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 34</value>
+  </data>
+  <data name="applyButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="applyButton.Text" xml:space="preserve">
+    <value>Применить</value>
+  </data>
+  <data name="&gt;&gt;applyButton.Name" xml:space="preserve">
+    <value>applyButton</value>
+  </data>
+  <data name="&gt;&gt;applyButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;applyButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;applyButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="autoSaveSettingsGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="autoSaveSettingsGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>640, 173</value>
+  </data>
+  <data name="autoSaveSettingsGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="autoSaveSettingsGroupBox.Text" xml:space="preserve">
+    <value>Автосохранение</value>
+  </data>
+  <data name="&gt;&gt;autoSaveSettingsGroupBox.Name" xml:space="preserve">
+    <value>autoSaveSettingsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;autoSaveSettingsGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;autoSaveSettingsGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;autoSaveSettingsGroupBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="darkThemeRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="darkThemeRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 66</value>
+  </data>
+  <data name="darkThemeRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 29</value>
+  </data>
+  <data name="darkThemeRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="darkThemeRadioButton.Text" xml:space="preserve">
+    <value>Темная</value>
+  </data>
+  <data name="&gt;&gt;darkThemeRadioButton.Name" xml:space="preserve">
+    <value>darkThemeRadioButton</value>
+  </data>
+  <data name="&gt;&gt;darkThemeRadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;darkThemeRadioButton.Parent" xml:space="preserve">
+    <value>themeSettingsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;darkThemeRadioButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lightThemeRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lightThemeRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 30</value>
+  </data>
+  <data name="lightThemeRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 29</value>
+  </data>
+  <data name="lightThemeRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lightThemeRadioButton.Text" xml:space="preserve">
+    <value>Светлая</value>
+  </data>
+  <data name="&gt;&gt;lightThemeRadioButton.Name" xml:space="preserve">
+    <value>lightThemeRadioButton</value>
+  </data>
+  <data name="&gt;&gt;lightThemeRadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lightThemeRadioButton.Parent" xml:space="preserve">
+    <value>themeSettingsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;lightThemeRadioButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="themeSettingsGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 191</value>
+  </data>
+  <data name="themeSettingsGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>640, 113</value>
+  </data>
+  <data name="themeSettingsGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="themeSettingsGroupBox.Text" xml:space="preserve">
+    <value>Цветовая схема</value>
+  </data>
+  <data name="&gt;&gt;themeSettingsGroupBox.Name" xml:space="preserve">
+    <value>themeSettingsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;themeSettingsGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;themeSettingsGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;themeSettingsGroupBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="journalingFrequencyLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="journalingFrequencyLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 62</value>
+  </data>
+  <data name="journalingFrequencyLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 25</value>
+  </data>
+  <data name="journalingFrequencyLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="journalingFrequencyLabel.Text" xml:space="preserve">
+    <value>Интервал журналрования</value>
+  </data>
+  <data name="&gt;&gt;journalingFrequencyLabel.Name" xml:space="preserve">
+    <value>journalingFrequencyLabel</value>
+  </data>
+  <data name="&gt;&gt;journalingFrequencyLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;journalingFrequencyLabel.Parent" xml:space="preserve">
+    <value>journalingSettingsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;journalingFrequencyLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="journalingFrequencyTrackBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 93</value>
+  </data>
+  <data name="journalingFrequencyTrackBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>349, 69</value>
+  </data>
+  <data name="journalingFrequencyTrackBar.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;journalingFrequencyTrackBar.Name" xml:space="preserve">
+    <value>journalingFrequencyTrackBar</value>
+  </data>
+  <data name="&gt;&gt;journalingFrequencyTrackBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;journalingFrequencyTrackBar.Parent" xml:space="preserve">
+    <value>journalingSettingsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;journalingFrequencyTrackBar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="enableJournalingCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="enableJournalingCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 30</value>
+  </data>
+  <data name="enableJournalingCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 29</value>
+  </data>
+  <data name="enableJournalingCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="enableJournalingCheckBox.Text" xml:space="preserve">
+    <value>Включить журналирование</value>
+  </data>
+  <data name="&gt;&gt;enableJournalingCheckBox.Name" xml:space="preserve">
+    <value>enableJournalingCheckBox</value>
+  </data>
+  <data name="&gt;&gt;enableJournalingCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;enableJournalingCheckBox.Parent" xml:space="preserve">
+    <value>journalingSettingsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;enableJournalingCheckBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="journalingSettingsGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 570</value>
+  </data>
+  <data name="journalingSettingsGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>640, 173</value>
+  </data>
+  <data name="journalingSettingsGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="journalingSettingsGroupBox.Text" xml:space="preserve">
+    <value>Журналирование файлов</value>
+  </data>
+  <data name="&gt;&gt;journalingSettingsGroupBox.Name" xml:space="preserve">
+    <value>journalingSettingsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;journalingSettingsGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;journalingSettingsGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;journalingSettingsGroupBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="selectCompilerPathDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="resetSyntaxColorsButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 201</value>
+  </data>
+  <data name="resetSyntaxColorsButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 34</value>
+  </data>
+  <data name="resetSyntaxColorsButton.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="resetSyntaxColorsButton.Text" xml:space="preserve">
+    <value>Сбросить все цвета</value>
+  </data>
+  <data name="&gt;&gt;resetSyntaxColorsButton.Name" xml:space="preserve">
+    <value>resetSyntaxColorsButton</value>
+  </data>
+  <data name="&gt;&gt;resetSyntaxColorsButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;resetSyntaxColorsButton.Parent" xml:space="preserve">
+    <value>syntaxColorsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;resetSyntaxColorsButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="selectedSyntaxColorLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="selectedSyntaxColorLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="selectedSyntaxColorLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 31</value>
+  </data>
+  <data name="selectedSyntaxColorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 25</value>
+  </data>
+  <data name="selectedSyntaxColorLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="selectedSyntaxColorLabel.Text" xml:space="preserve">
+    <value>Выбранный цвет:</value>
+  </data>
+  <data name="&gt;&gt;selectedSyntaxColorLabel.Name" xml:space="preserve">
+    <value>selectedSyntaxColorLabel</value>
+  </data>
+  <data name="&gt;&gt;selectedSyntaxColorLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;selectedSyntaxColorLabel.Parent" xml:space="preserve">
+    <value>syntaxColorsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;selectedSyntaxColorLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="selectSyntaxColorButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>410, 72</value>
+  </data>
+  <data name="selectSyntaxColorButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 34</value>
+  </data>
+  <data name="selectSyntaxColorButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="selectSyntaxColorButton.Text" xml:space="preserve">
+    <value>Выбрать...</value>
+  </data>
+  <data name="&gt;&gt;selectSyntaxColorButton.Name" xml:space="preserve">
+    <value>selectSyntaxColorButton</value>
+  </data>
+  <data name="&gt;&gt;selectSyntaxColorButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;selectSyntaxColorButton.Parent" xml:space="preserve">
+    <value>syntaxColorsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;selectSyntaxColorButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="syntaxColorPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 59</value>
+  </data>
+  <data name="syntaxColorPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 47</value>
+  </data>
+  <data name="syntaxColorPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;syntaxColorPanel.Name" xml:space="preserve">
+    <value>syntaxColorPanel</value>
+  </data>
+  <data name="&gt;&gt;syntaxColorPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;syntaxColorPanel.Parent" xml:space="preserve">
+    <value>syntaxColorsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;syntaxColorPanel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="syntaxItemListBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="syntaxItemListBox.Items" xml:space="preserve">
+    <value>Ключевые слова</value>
+  </data>
+  <data name="syntaxItemListBox.Items1" xml:space="preserve">
+    <value>Типы (классы и пр.)</value>
+  </data>
+  <data name="syntaxItemListBox.Items2" xml:space="preserve">
+    <value>Пространства имен</value>
+  </data>
+  <data name="syntaxItemListBox.Items3" xml:space="preserve">
+    <value>Методы</value>
+  </data>
+  <data name="syntaxItemListBox.Items4" xml:space="preserve">
+    <value>Свойства</value>
+  </data>
+  <data name="syntaxItemListBox.Items5" xml:space="preserve">
+    <value>Строковые литералы</value>
+  </data>
+  <data name="syntaxItemListBox.Items6" xml:space="preserve">
+    <value>Числовые литералы</value>
+  </data>
+  <data name="syntaxItemListBox.Items7" xml:space="preserve">
+    <value>Комментарии</value>
+  </data>
+  <data name="syntaxItemListBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 31</value>
+  </data>
+  <data name="syntaxItemListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>274, 204</value>
+  </data>
+  <data name="syntaxItemListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;syntaxItemListBox.Name" xml:space="preserve">
+    <value>syntaxItemListBox</value>
+  </data>
+  <data name="&gt;&gt;syntaxItemListBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;syntaxItemListBox.Parent" xml:space="preserve">
+    <value>syntaxColorsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;syntaxItemListBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="syntaxColorsGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 320</value>
+  </data>
+  <data name="syntaxColorsGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>640, 244</value>
+  </data>
+  <data name="syntaxColorsGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="syntaxColorsGroupBox.Text" xml:space="preserve">
+    <value>Подсветка синтаксиса (для применения необходим перезапуск)</value>
+  </data>
+  <data name="&gt;&gt;syntaxColorsGroupBox.Name" xml:space="preserve">
+    <value>syntaxColorsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;syntaxColorsGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;syntaxColorsGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;syntaxColorsGroupBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="syntaxHighlighingColorDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>289, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>10, 25</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>664, 819</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAQEAAAAEAIAAoQgAAFgAAACgAAABAAAAAgAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPj4+CP29vb/9vb2//b29v/29vb/9vb2//b2
+        9v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/+Pj4IgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD19fVO9vb2//b2
+        9v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//X1
+        9UwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA9/f3efb29v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b2
+        9v/29vb/9vb2//b29v/29vZ3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///wj09PQXAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAPb29qP29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b2
+        9v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2ogAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD09PQX////CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//
+        /wb29vaz9vb26vX19U4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD29vbO9vb2//b29v/29vb/b29v/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/cHBw//b29v/29vb/9vb2//b29swAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD4+PhG9vb25vX19bn///8JAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAP///wb29vaz9vb2//b29v/29vb/9vb2ov///wsAAAAAAAAAAAAAAAD///8C9vb29fb2
+        9v/29vb/9vb2/1FRUf9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/1FRUf/29vb/9vb2//b2
+        9v/29vb1////AgAAAAAAAAAAAAAAAP///wj29vaR9vb2/vb29v/29vb/9fX1uf///wkAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///wb29vaz9vb2//b29v/29vb/9vb2//b29v/19fXW9fX1MQAA
+        AAAAAAAA+Pj4JPb29v/29vb/9vb2/+fn5/9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/5+fn//b29v/29vb/9vb2//j4+CIAAAAAAAAAAPPz8yv29vbR9vb2//b29v/29vb/9vb2//b2
+        9v/19fW5////CQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///wb29vaz9vb2//b29v/29vb/9vb2//b2
+        9v/29vb/9vb2//b29vj29vZ3////AvX19U729vb/9vb2//b29v/IyMj/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/8nJyf/29vb/9vb2//b29v/19fVM////AfX19Wb29vb19vb2//b2
+        9v/29vb/9vb2//b29v/29vb/9vb2//X19bn///8JAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///wj39/e49vb2//b2
+        9v/29vb/9vb2//T09P/29vb/9vb2//b29v/29vb/9vb2//X19bn29vaR9vb2//b29v/29vb/q6ur/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv+rq6v/9vb2//b29v/29vb/9vb2kPX1
+        9bn29vb/9vb2//b29v/29vb/9vb2//T09P/29vb/9vb2//b29v/29vb/9/f3uP///wgAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//
+        /wf29vaz9vb2//b29v/29vb/9vb2/9nZ2f9ZWVn/qKio//b29v/29vb/9vb2//b29v/29vb/9vb2//b2
+        9v/29vb/9vb2/4yMjP9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/jY2N//b2
+        9v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2/7Ozs/9ZWVn/19fX//b29v/29vb/9vb2//b2
+        9v/19fW5////CQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAP///wf29vaz9vb2//b29v/29vb/9vb2/9nZ2f9TU1P/QkJC/0JCQv98fHz/6enp//b2
+        9v/29vb/9vb2//b29v/29vb/9vb2//b29v9ubm7/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/3BwcP/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/7Ozs/4GBgf9CQkL/QkJC/1FR
+        Uf/X19f/9vb2//b29v/29vb/9vb2//X19bn///8JAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///wf29vaz9vb2//b29v/29vb/9vb2/9nZ2f9TU1P/QkJC/0JC
+        Qv9CQkL/QkJC/1ZWVv/Jycn/9vb2//b29v/29vb/9vb2//b29v/29vb/UFBQ/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9RUVH/9vb2//b29v/29vb/9vb2//b29v/29vb/yMjI/1ZW
+        Vv9CQkL/QkJC/0JCQv9CQkL/UVFR/9fX1//29vb/9vb2//b29v/29vb/9fX1uf///wkAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///wf29vaz9vb2//b29v/29vb/9vb2/9bW
+        1v9QUFD/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/Q0ND/5eXl//y8vL/9vb2//b29v/n5+f/rq6u/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/7Gxsf/u7u7/9vb2//b2
+        9v/y8vL/lpaW/0NDQ/9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9RUVH/19fX//b29v/29vb/9vb2//b2
+        9v/19fW5////CQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///wf29vaz9vb2//b2
+        9v/29vb/9vb2/9bW1v9QUFD/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/Z2dn/8nJ
+        yf+FhYX/RERE/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/S0tL/5CQkP/Jycn/Z2dn/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/1FR
+        Uf/X19f/9vb2//b29v/29vb/9vb2//X19bn///8JAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//
+        /wf29vaz9vb2//b29v/29vb/9vb2/9nZ2f9TU1P/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/UVFR/9fX1//29vb/9vb2//b29v/29vb/9fX1uf///wkAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD09PQY9vb26vb29v/29vb/9vb2//T09P9ZWVn/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9ZWVn/9PT0//b29v/29vb/9vb2//b2
+        9ur09PQXAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPX19Un29vb+9vb2//b29v/29vb/sLCw/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/sbGx//b2
+        9v/29vb/9vb2//b29v719fVOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9/f3lvb2
+        9v/29vb/9vb2//b29v9/f3//QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/fHx8//b29v/29vb/9vb2//b29v/29vaUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAP///wj39/fS9vb2//b29v/29vb/6+vr/1dXV/9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/VlZW/+rq6v/29vb/9vb2//b29v/19fXV////CgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8/PzLPb29vf29vb/9vb2//b29v/Ly8v/RERE/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/Q0ND/8fHx//29vb/9vb2//b29v/29vb49PT0MAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD29vZy9vb2//b2
+        9v/29vb/9vb2/5aWlv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/5iYmP/29vb/9vb2//b2
+        9v/29vb/9vb2cQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA////Aff397X29vb/9vb2//b29v/z8/P/aWlp/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/2Zm
+        Zv/y8vL/9vb2//b29v/29vb/9fX1uv///wEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD///8C+Pj4IvX19U329vaQ9vb2//b29v/29vb/9vb2/8nJyf9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv/Jycn/9vb2//b29v/29vb/9vb2//b29pD19fVN+Pj4Iv///wIAAAAAAAAAAAAA
+        AAAAAAAAAAAAAPj4+CL19fVN9vb2d/b29qL29vbM9vb29fb29v/29vb/9vb2//b29v/29vb/9vb2//b2
+        9v+QkJD/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9XV1f/kpKS/76+vv/R0dH/0dHR/76+vv+RkZH/VlZW/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/hoaG//b29v/29vb/9vb2//b29v/29vb/9vb2//b2
+        9v/29vb19vb2zfb29qL39/d49fX1Tvj4+CP29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b2
+        9v/29vb/9vb2//b29v/t7e3/SkpK/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0xMTP+qqqr/8vLy//b29v/29vb/9vb2//b29v/29vb/9vb2//Ly8v+pqan/S0tL/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0RERP/n5+f/9vb2//b2
+        9v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b2
+        9v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/sbGx/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/1dXV//X19f/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b2
+        9v/29vb/9vb2/9fX1/9XV1f/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/r6+v//b29v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b2
+        9v/29vb/9vb2//b29v/29vb/9vb2/+rq6v/S0tL/s7Oz/5aWlv93d3f/Wlpa/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0xMTP/X19f/9vb2//b29v/29vb/9vb2//b2
+        9v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/2dnZ/0xMTP9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9OTk7/ZmZm/4SEhP+ioqL/wMDA/97e3v/29vb/9vb2//b2
+        9v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/cHBw/1FRUf9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv+rq6v/9vb2//b2
+        9v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b29v+pqan/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/UFBQ/29vb//29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9YWFj/8vLy//b29v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b2
+        9v/29vb/8vLy/1dXV/9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b2
+        9v9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/kpKS//b29v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b2
+        9v/29vb/9vb2//b29v/29vb/9vb2//b29v+QkJD/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC//b29v/29vb/9vb2//b2
+        9v/29vb/9vb2//b29v/29vb/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/7+/v//29vb/9vb2//b29v/29vb/9vb2//b2
+        9v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/vr6+/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv/S0tL/9vb2//b2
+        9v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2/9HR
+        0f9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b29v9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/09PT//b29v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b2
+        9v/29vb/9vb2//b29v/R0dH/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC//b29v/29vb/9vb2//b29v/29vb/9vb2//b2
+        9v/29vb/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/7+/v//29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b2
+        9v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/vr6+/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv/29vb/9vb2//b2
+        9v/29vb/9vb2//b29v/29vb/9vb2/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv+UlJT/9vb2//b29v/29vb/9vb2//b2
+        9v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2/5KSkv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b29v9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/WFhY//Ly
+        8v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//Ly
+        8v9XV1f/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC//b29v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/b29v/1BQ
+        UP9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv+srKz/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b2
+        9v/29vb/9vb2//b29v+qqqr/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/UFBQ/29vb//29vb/9vb2//b29v/29vb/9vb2//b2
+        9v/29vb/9vb2//b29v/29vb/6urq/8zMzP+urq7/kJCQ/3Jycv9UVFT/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/TExM/9fX1//29vb/9vb2//b29v/29vb/9vb2//b2
+        9v/29vb/9vb2//b29v/29vb/9vb2//b29v/Z2dn/TExM/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/05OTv9sbGz/ioqK/6ioqP/Gxsb/3t7e//b29v/29vb/9vb2//b2
+        9v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2/66u
+        rv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9YWFj/2NjY//b2
+        9v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b29v/X19f/V1dX/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/7Gxsf/29vb/9vb2//b29v/29vb/9vb2//b2
+        9v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b2
+        9v/29vb/9vb2//b29v/n5+f/RERE/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0xMTP+srKz/8vLy//b29v/29vb/9vb2//b29v/29vb/9vb2//Ly8v+rq6v/TExM/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0tLS//u7u7/9vb2//b2
+        9v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/+Pj4I/X19U739/d49vb2o/b2
+        9s329vb29vb2//b29v/29vb/9vb2//b29v/29vb/9vb2/4WFhf9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/1hYWP+Tk5P/v7+//9HR0f/R0dH/v7+//5KS
+        kv9YWFj/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv+QkJD/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b29vb29vbN9vb2o/f393j19fVO+Pj4IwAA
+        AAAAAAAAAAAAAAAAAAAAAAAA////Avj4+CP19fVO9vb2kPb29v/29vb/9vb2//b29v/Jycn/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/ycnJ//b29v/29vb/9vb2//b29v/29vaQ9fX1Tvj4+CP///8CAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////Afb29rT29vb/9vb2//b2
+        9v/z8/P/aWlp/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/2VlZf/y8vL/9vb2//b29v/29vb/9fX1uf//
+        /wEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPb2
+        9nH29vb/9vb2//b29v/29vb/l5eX/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/l5eX//b2
+        9v/29vb/9vb2//b29v/29vZwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAPPz8yz29vb39vb2//b29v/29vb/y8vL/0RERP9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0NDQ//Hx8f/9vb2//b29v/29vb/9vb2+PT09DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///wj39/fS9vb2//b29v/29vb/6+vr/1dXV/9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/VVVV/+np6f/29vb/9vb2//b29v/19fXV////CQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD39/eW9vb2//b29v/29vb/9vb2/39/
+        f/9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv97e3v/9vb2//b2
+        9v/29vb/9vb2//b29pQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD19fVJ9vb2/vb2
+        9v/29vb/9vb2/7CwsP9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/7CwsP/29vb/9vb2//b29v/29vb+9fX1TgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD09PQY9vb26vb29v/29vb/9vb2//T09P9ZWVn/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9ZWVn/9PT0//b29v/29vb/9vb2//b29ur09PQXAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA////B/b29rT29vb/9vb2//b29v/29vb/1tbW/1BQUP9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9RUVH/1tbW//b29v/29vb/9vb2//b2
+        9v/19fW5////CQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8H9vb2tPb29v/29vb/9vb2//b2
+        9v/W1tb/UFBQ/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/2dnZ//Jycn/kJCQ/0pK
+        Sv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0ND
+        Q/+Ghob/ycnJ/2dnZ/9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9RUVH/19fX//b2
+        9v/29vb/9vb2//b29v/19fW5////CQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//
+        /wf29va09vb2//b29v/29vb/9vb2/9bW1v9QUFD/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/Q0ND/5eX
+        l//y8vL/9vb2//b29v/t7e3/sbGx/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/66urv/n5+f/9vb2//b29v/y8vL/mJiY/0NDQ/9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9RUVH/19fX//b29v/29vb/9vb2//b29v/19fW5////CQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA////B/b29rT29vb/9vb2//b29v/29vb/1tbW/1BQUP9CQkL/QkJC/0JC
+        Qv9CQkL/U1NT/8TExP/29vb/9vb2//b29v/29vb/9vb2//b29v9RUVH/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/1BQUP/29vb/9vb2//b29v/29vb/9vb2//b29v/Ozs7/WVlZ/0JC
+        Qv9CQkL/QkJC/0JCQv9RUVH/1tbW//b29v/29vb/9vb2//b29v/19fW5////CQAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8H9vb2tPb29v/29vb/9vb2//b2
+        9v/W1tb/UFBQ/0JCQv9CQkL/e3t7/+np6f/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/b29v/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9vb2//9vb2//b29v/29vb/9vb2//b2
+        9v/29vb/9vb2/+zs7P+CgoL/QkJC/0JCQv9RUVH/1tbW//b29v/29vb/9vb2//b29v/19fW5////CQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//
+        /wf29vaz9vb2//b29v/29vb/9vb2/9bW1v9WVlb/qKio//b29v/29vb/9vb2//b29v/29vb/9vb2//b2
+        9v/29vb/9vb2/42Njf9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/jY2N//b2
+        9v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2/7Ozs/9ZWVn/1tbW//b29v/29vb/9vb2//b2
+        9v/19fW6////CQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA////CPf397j29vb/9vb2//b29v/29vb/9PT0//b29v/29vb/9vb2//b2
+        9v/29vb/9fX1ufb29pD29vb/9vb2//b29v+rq6v/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/6urq//29vb/9vb2//b29v/29vaQ9fX1ufb29v/29vb/9vb2//b29v/29vb/9PT0//b2
+        9v/29vb/9vb2//b29v/39/e4////CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8H9vb2s/b29v/29vb/9vb2//b2
+        9v/29vb/9vb2//b29v/29vb69fX1gP///wL19fVN9vb2//b29v/29vb/ycnJ/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv/Jycn/9vb2//b29v/29vb/9fX1TP///wH29vZv9vb2+Pb2
+        9v/29vb/9vb2//b29v/29vb/9vb2//b29v/19fW6////CQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//
+        /wf29vaz9vb2//b29v/29vb/9vb2//b29v/29vbX9fX1MQAAAAAAAAAA+Pj4I/b29v/29vb/9vb2/+fn
+        5/9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/5+fn//b29v/29vb/9vb2//j4
+        +CIAAAAAAAAAAPPz8yv29vbR9vb2//b29v/29vb/9vb2//b29v/19fW6////CQAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA////B/b29rP29vb/9vb2//b29v/29vai////CwAAAAAAAAAAAAAAAP//
+        /wL29vb09vb2//b29v/29vb/UVFR/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/UFBQ//b2
+        9v/29vb/9vb2//b29vX///8CAAAAAAAAAAAAAAAA////CPb29pH29vb+9vb2//b29v/19fW6////CQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8H9vb2s/b29uv19fVOAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA9vb2zfb29v/29vb/9vb2/29vb/9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/29vb//29vb/9vb2//b29v/29vbMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9PT0R/b2
+        9uf19fW6////CQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//
+        /wj09PQYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPb29qL29vb/9vb2//b29v/29vb/9vb2//b2
+        9v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2ogAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD09PQY////CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD39/d59vb2//b2
+        9v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//f3
+        93gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA9fX1Tvb29v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b2
+        9v/29vb/9vb2//b29v/19fVNAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAPj4+CP29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b2
+        9v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/+Pj4IwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA///+AAB///////4AAH///////gAAf/////z+AAB/P///+H4AAH4f///wHAAAOA///+AMAAAw
+        B///wAAAAAAD//+AAAAAAAH//wAAAAAAAP/+AAAAAAAAf/wAAAAAAAA/+AAAAAAAAB/wAAAAAAAAD+AA
+        AAAAAAAH4AAAAAAAAAfwAAAAAAAAD/gAAAAAAAAf+AAAAAAAAB/8AAAAAAAAP/4AAAAAAAB//gAAAAAA
+        AH/4AAAAAAAAHwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPgAAAAAAAAf/gAAAAAAAH/+AAAAAAAAf/wA
+        AAAAAAA/+AAAAAAAAB/4AAAAAAAAH/AAAAAAAAAP4AAAAAAAAAfgAAAAAAAAB/AAAAAAAAAP+AAAAAAA
+        AB/8AAAAAAAAP/4AAAAAAAB//wAAAAAAAP//gAAAAAAB///AAAAAAAP//+AMAAAwB///8BwAADgP///4
+        fgAAfh////z+AAB/P/////4AAH///////gAAf//////+AAB///8=
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="&gt;&gt;selectCompilerPathDialog.Name" xml:space="preserve">
+    <value>selectCompilerPathDialog</value>
+  </data>
+  <data name="&gt;&gt;selectCompilerPathDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;syntaxHighlighingColorDialog.Name" xml:space="preserve">
+    <value>syntaxHighlighingColorDialog</value>
+  </data>
+  <data name="&gt;&gt;syntaxHighlighingColorDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SettingsForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
